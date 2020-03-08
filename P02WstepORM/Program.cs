@@ -55,9 +55,38 @@ namespace P02WstepORM
             var wynik7 = db.Zawodnik.Where(x => x.wzrost > db.Zawodnik.Where(y => y.kraj == "pol").Max(y => y.wzrost)).ToList();
 
 
+            var wynik8= db.Zawodnik.GroupBy(x => x.kraj).Select(x => new { MojKraj = x.Key, MojSrWzrost = x.Average(y => y.wzrost) }).ToList();
+
+            foreach (var item in wynik8)
+                Console.WriteLine(item.MojKraj + " " + item.MojSrWzrost);
+
+            wynik8.ForEach(x => 
+            {
+                // ciało tej anonimowej funkcji wykonuję dla kazdego rekordu z wynik 8 
+                Console.WriteLine(x.MojKraj + " " + x.MojSrWzrost);
+            });
+
+            // 6. podaj ile jest osób z każdego kraju
+
+            db.Zawodnik.GroupBy(x => x.kraj).Select(x => new { Kraj = x.Key, Ile = x.Count() }).ToList();
+
+            //   db.Zawodnik.GroupBy(x=> new { x.kraj, x.nazwisko}).Select(x=>x.Key.)
+
+            var wynik9 = from x in db.Zawodnik
+                         where x.kraj == "pol"
+                         select new
+                         {
+                             MojeImie = x.imie,
+                             MojeNazwisko = x.nazwisko
+                         };
+
+            var wynik10 = (from x in db.Zawodnik
+                          where x.kraj == "pol"
+                          select x).ToList();
+
+            var wynik11 = db.Zawodnik.Where(x => x.kraj == "pol").Select(x => x).ToList();
 
 
-            Console.ReadKey();
 
         }
     }

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02WstepORM", "P02WstepORM\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03PodgladZapytania", "P03PodgladZapytania\P03PodgladZapytania.csproj", "{EA976636-965D-43AA-A0C7-A20DACF4A04C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04OperacjeCRUD", "P04OperacjeCRUD\P04OperacjeCRUD.csproj", "{4CA29AD0-DD6A-4514-9513-E5DF6B77410A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05LaczenieDanych", "P05LaczenieDanych\P05LaczenieDanych.csproj", "{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{EA976636-965D-43AA-A0C7-A20DACF4A04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA976636-965D-43AA-A0C7-A20DACF4A04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA976636-965D-43AA-A0C7-A20DACF4A04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA29AD0-DD6A-4514-9513-E5DF6B77410A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA29AD0-DD6A-4514-9513-E5DF6B77410A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA29AD0-DD6A-4514-9513-E5DF6B77410A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA29AD0-DD6A-4514-9513-E5DF6B77410A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
