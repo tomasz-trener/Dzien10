@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01WstepLinq", "P01WstepLin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02WstepORM", "P02WstepORM\P02WstepORM.csproj", "{AD46638C-E7EC-4CB6-8174-0A696BA9F9DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03PodgladZapytania", "P03PodgladZapytania\P03PodgladZapytania.csproj", "{EA976636-965D-43AA-A0C7-A20DACF4A04C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AD46638C-E7EC-4CB6-8174-0A696BA9F9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD46638C-E7EC-4CB6-8174-0A696BA9F9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD46638C-E7EC-4CB6-8174-0A696BA9F9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA976636-965D-43AA-A0C7-A20DACF4A04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA976636-965D-43AA-A0C7-A20DACF4A04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA976636-965D-43AA-A0C7-A20DACF4A04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA976636-965D-43AA-A0C7-A20DACF4A04C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
