@@ -29,7 +29,7 @@ namespace P02WstepORM
 
             // 3. podaj unikalne kraje i posortuj alfabetycznie
 
-            // 4. podaj tylko nazwiska zawodników i posortuj wg wzrostu 
+            // 4. podaj tylko nazwiska zawodników i posortuj wg wzrostu  
              
 
 
