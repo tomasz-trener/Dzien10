@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04OperacjeCRUD", "P04Opera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05LaczenieDanych", "P05LaczenieDanych\P05LaczenieDanych.csproj", "{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07AplikacjaZawodnicy", "P07AplikacjaZawodnicy\P07AplikacjaZawodnicy.csproj", "{AD5F6D32-6C2E-4046-9A20-DCE618B6A1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23CEB28F-F8EC-4F15-A37E-9E6E08CA30A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5F6D32-6C2E-4046-9A20-DCE618B6A1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5F6D32-6C2E-4046-9A20-DCE618B6A1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5F6D32-6C2E-4046-9A20-DCE618B6A1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5F6D32-6C2E-4046-9A20-DCE618B6A1EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
